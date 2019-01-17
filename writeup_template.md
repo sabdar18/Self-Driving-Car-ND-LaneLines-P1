@@ -12,8 +12,10 @@ The goals / steps of this project are the following:
 [image1]: ./test_images_output/finalsolidWhiteCurve.jpg "Final Solid White Curve"
 [image2]: ./test_images_output/finalsolidWhiteRight.jpg "Final Solid White Right"
 [image3]: ./test_images_output/finalsolidYellowCurve.jpg "Final Solid Yellow Curve"
-[image4]: ./test_images_output/finalsolidWhiteCurve2.jpg "Final Solid Yellow Curve 2"
+[image4]: ./test_images_output/finalsolidYellowCurve2.jpg "Final Solid Yellow Curve 2"
 
+[image5]: ./test_images_output/finalsolidYellowLeft.jpg "Final Solid Yellow Left"
+[image6]: ./test_images_output/finalwhiteCarLaneSwitch.jpg "Final White Car Lane Switch"
 
 ---
 
