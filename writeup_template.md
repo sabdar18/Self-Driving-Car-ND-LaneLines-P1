@@ -4,15 +4,15 @@
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
+* Reflection of my work  in a written report
 
 
 [//]: # (Image References)
 
-[image1]: ./test_images_output/finalSolidWhiteCurve.jpg "Final Solid White Curve"
-[image2]: ./test_images_output/finalSolidWhiteRight.jpg "Final Solid White Right"
-[image3]: ./test_images_output/finalSolidYellowCurve.jpg "Final Solid Yellow Curve"
-[image4]: ./test_images_output/finalSolidWhiteCurve2.jpg "Final Solid Yellow Curve 2"
+[image1]: ./test_images_output/finalsolidWhiteCurve.jpg "Final Solid White Curve"
+[image2]: ./test_images_output/finalsolidWhiteRight.jpg "Final Solid White Right"
+[image3]: ./test_images_output/finalsolidYellowCurve.jpg "Final Solid Yellow Curve"
+[image4]: ./test_images_output/finalsolidWhiteCurve2.jpg "Final Solid Yellow Curve 2"
 
 
 ---
