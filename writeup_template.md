@@ -37,24 +37,35 @@ My Pipeline consists of following steps:
 ![alt text][image2]
 ![alt text][image3]
 ![alt text][image4]
+![alt text][image5]
+![alt text][image6]
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+In order to draw a single line on the left and right lanes, I modified the draw_lines() function by taking points of x1,y1,x2,y2 and calculating slope m using the above points then based on slope i find to draw the line to left or right 
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+Here i am  taking one more helper function draw_line() to a draw line.
 
-<!-- ![alt text][image1] -->
+This function will take array of points x, y and based on the value of x array length it will draw a line otherwise it will return.
+
+In this function , i am using np.polyfit with x, y points and drawing a single line by calculating m and b values finally drawing line using cv2.line() function
+
+
 
 
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+Then potential shortcoming would be 
+1) The Lines drawn will be shaking in the video
+2) For challenge video, the entire output will be different , it not able to detect lines properly 
 
-Another shortcoming could be ...
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+The possible improvement would be 
+1) Improve line drawing so that line shaking in the video is eliminated.
+2) Need to improve to find lanes in challenge video scenario also
+3) Need to improve the area to find the lanes 
 
-Another potential improvement could be to ...
+
+
